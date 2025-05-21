@@ -19,7 +19,7 @@ h2 {
 }
 
 h2,
-.comment {
+.username {
     font-size: 20px;
     font-weight: 800;
 }
@@ -39,7 +39,7 @@ p {
 }
 
 header {
-    border-bottom: 1px solid #c6c6c6;
+    border-bottom: 2px solid #c6c6c6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,15 +78,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-    margin: 0 auto 0 0;
+    margin: 0 0 0 10px;
     padding: 10px;
 }
 
 .icon {
     width: 35px;
     height: 40px;
-    margin: 0 5px;
-    padding: 2px;
+    margin-right: 10px;
 }
 
 .post {
@@ -99,7 +98,3 @@ header {
     margin-top: 10px;
 }
 
-.likes,
-.comment {
-    margin-left: 10px;
-}
