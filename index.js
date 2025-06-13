@@ -17,7 +17,7 @@ const posts = [
         comment: "i'm feelin a bit stressed tbh",
         likes: 4
     },
-        {
+    {
         name: "Joseph Ducreux",
         username: "jd1735",
         location: "Paris, France",
@@ -42,7 +42,6 @@ const dmiconEl = document.getElementById("dm-icon")
 hearticonEl.src = "images/icon-heart.png"
 commenticonEl.src = "images/icon-comment.png"
 dmiconEl.src = "images/icon-dm.png"
-
 
 // Show posts[0] by default
 postEl.src = posts[0].post
@@ -79,5 +78,3 @@ hearticonEl.addEventListener("click", function() {
     posts[lastIndex].likes += 1
     likesEl.textContent = posts[lastIndex].likes
 })
-
-
